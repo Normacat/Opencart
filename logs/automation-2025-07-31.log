@@ -1,5 +1,0 @@
-00:01:34.064 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
-00:01:34.341 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:35)oggger - Validating expected page title
-00:02:42.692 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
-00:02:42.906 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
-00:02:42.991 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
