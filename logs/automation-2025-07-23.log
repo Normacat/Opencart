@@ -1,0 +1,5 @@
+23:13:18.032 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:39)oggger - Validating expected page title
+23:13:18.054 [main] ERROR testCases.TC001_LoginTest.login(TC001_LoginTest.java:46)oggger - Test failed
+23:13:18.055 [main] DEBUG testCases.TC001_LoginTest.login(TC001_LoginTest.java:47)oggger - Debugs logs
+23:14:09.508 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:23)oggger - *** Starting TC001_LoginTest ***
+23:14:10.122 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:31)oggger - Providing customer details

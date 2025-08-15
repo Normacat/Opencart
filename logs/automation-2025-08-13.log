@@ -1,0 +1,5 @@
+00:43:02.857 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:59)oggger -  *** Finished TC001_LoginTest *** 
+00:44:31.227 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
+00:44:31.452 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
+00:44:31.538 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
+01:36:59.635 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
