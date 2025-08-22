@@ -30,11 +30,11 @@ public class TC001_LoginTest extends BaseClass {
 		
 		HomePage hp = new HomePage(driver);
 		hp.switchFrame(driver);
-		String pagetitle= hp.pageTitle();
+		String pageusername= hp.pageUserName();
 		//Assert.assertEquals(pagetitle, "AON FLEX");
 		logger.info("Validating expected page title");
 		
-		if(pagetitle.equals("BANDA SIETE MENOS ELECTRICAL S XXI")){
+		if(pageusername.equals("BANDA SIETE MENOS ELECTRICAL S XXI")){
 			
 			
 			hp.clickLogOut();

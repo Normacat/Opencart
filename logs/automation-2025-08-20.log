@@ -1,0 +1,4 @@
+16:37:43.226 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+16:39:15.854 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+16:39:16.362 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+16:39:19.226 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login

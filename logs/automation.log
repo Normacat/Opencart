@@ -1,2 +1,1 @@
-01:37:00.214 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
-01:37:00.500 [main] INFO  testCases.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
+16:39:19.530 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - *** Finished TC003_ValidatingUserProfile ***

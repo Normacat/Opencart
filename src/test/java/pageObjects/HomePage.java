@@ -8,7 +8,7 @@ public class HomePage extends BasePage{
 	
 	WebDriver driver;
 	
-
+	//Constructor
 	public HomePage(WebDriver driver) {
 		super(driver);
 		
@@ -21,7 +21,7 @@ public class HomePage extends BasePage{
 	@FindBy(id = "salirId") WebElement lblLogout;
 	@FindBy(xpath = "/html/body/div[1]/div/font/strong/font") WebElement profileName;
 	
-	public String pageTitle() {
+	public String pageUserName() {
 		
 		return (profileName.getText());
 		

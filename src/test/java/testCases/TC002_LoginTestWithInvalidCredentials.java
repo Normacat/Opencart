@@ -18,7 +18,7 @@ public class TC002_LoginTestWithInvalidCredentials extends BaseClass{
 		phl.setPassword(setRandomeAlphabeticNumber());
 		phl.clickLogin();
 		
-		 String msgInvalidCredentials = phl.getMsgInvalidCredentials();
+		String msgInvalidCredentials = phl.getMsgInvalidCredentials();
 		
 		Assert.assertEquals(msgInvalidCredentials, "El usuario o el password no son correctos, verifique sus datos.");
 			

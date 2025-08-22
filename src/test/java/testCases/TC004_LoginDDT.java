@@ -1,6 +1,5 @@
 package testCases;
 
-import org.apache.commons.codec.language.bm.Rule.PhonemeList;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,11 +9,11 @@ import testBase.BaseClass;
 import utilities.DataProviders;
 
 /*
- Data is valid - Login is Succes - Test passed - Logout
- Data is valid - Login isn't succes -Test fail
+ Data is valid - Login is Success - Test passed - Logout
+ Data is valid - Login isn't success -Test fail
  
- Data is invalid - Login is succes - Test fail - Logout
- Data is invalid - Login isn't succes - Test passed
+ Data is invalid - Login is success - Test fail - Logout
+ Data is invalid - Login isn't success - Test passed
  */
 
 public class TC004_LoginDDT extends BaseClass {
