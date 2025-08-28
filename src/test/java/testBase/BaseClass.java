@@ -29,7 +29,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	public Logger logger;
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Properties p;
 	
 	@Parameters({"os", "browser"})
@@ -75,7 +75,7 @@ public class BaseClass {
 						
 			}
 			
-			driver = new RemoteWebDriver(new URL ("http://192.168.1.93:4444/wd/hub"), cap);
+			driver = new RemoteWebDriver(new URL ("http://192.168.1.83:4444/wd/hub"), cap);
 			
 		}
 		

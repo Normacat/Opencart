@@ -24,7 +24,6 @@ public class PageHomeLogin extends BasePage{
 	
 	
 	
-	
 	public void setUserName(String username) {
 		
 		

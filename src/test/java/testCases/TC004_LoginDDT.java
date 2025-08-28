@@ -19,7 +19,7 @@ import utilities.DataProviders;
 public class TC004_LoginDDT extends BaseClass {
 	
 	
-	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups ="Sanity")
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups = "Sanity")
 	public void verify_LoginDDT(String user, String pwd, String exp) {
 		
 	logger.info("****Starting the test TC004_LoginDDT *****");
@@ -64,11 +64,13 @@ public class TC004_LoginDDT extends BaseClass {
 		}
 		else {
 			
+			
 			Assert.assertTrue(true);
 			
 		}
 		
 	}
+	
 	
 	
 	}catch (Exception e) {
@@ -81,7 +83,6 @@ public class TC004_LoginDDT extends BaseClass {
 		
 		logger.info("****Finished the test TC004_LoginDDT *****");
 	}
-	
-	
 
+	
 }

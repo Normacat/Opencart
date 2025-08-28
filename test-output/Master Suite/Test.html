@@ -55,18 +55,105 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 20 16:39:09 CST 2025</td>
+<td>Started on:</td><td>Thu Aug 28 14:20:26 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10667 ms)</td>
+<tr><td>Total time:</td><td>68 seconds (68385 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Master Regression </td>
+<td>Included groups:</td><td>Master Sanity Regression </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: test01, test01, invalid</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace854977732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace854977732'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
+<tr>
+<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: test02, test02, invalid</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace874548138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace874548138'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +163,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC001_LoginTest.login()'><b>login</b><br>Test class: testCases.TC001_LoginTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC001_LoginTest@7bedc48a</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()'><b>loginWithInvalidCreddentials</b><br>Test class: testCases.TC002_LoginTestWithInvalidCredentials</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC002_LoginTestWithInvalidCredentials@70325e14</td></tr>
+<tr>
+<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: LEAR_PR07, Mexico*2024, valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
+<tr>
 <td title='testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName()'><b>ValidatingUserProfileName</b><br>Test class: testCases.TC003_ValidatingUserProfile</td>
 <td></td>
 <td>3</td>
-<td>testCases.TC003_ValidatingUserProfile@544fa968</td></tr>
+<td>testCases.TC003_ValidatingUserProfile@37ceb1df</td></tr>
+<tr>
+<td title='testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: testCases.TC006_LoginWithInvalidPassword</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_LoginWithInvalidPassword@6200f9cb</td></tr>
+<tr>
+<td title='testCases.TC005_LoginWithInvalidUserName.loginWithInvalidUserName()'><b>loginWithInvalidUserName</b><br>Test class: testCases.TC005_LoginWithInvalidUserName</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC005_LoginWithInvalidUserName@20d525</td></tr>
 </table><p>
 </body>
 </html>

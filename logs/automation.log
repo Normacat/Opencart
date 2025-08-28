@@ -1,1 +1,2 @@
-16:39:19.530 [main] INFO  testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - *** Finished TC003_ValidatingUserProfile ***
+14:25:54.283 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:26)oggger - Clicking to login
+14:25:54.319 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:45)oggger -  *****Finished TC006_LoginWithInvalidPassword ******
