@@ -1,0 +1,35 @@
+22:16:23.091 [main] ERROR testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:44)oggger - Test failed
+22:16:23.104 [main] DEBUG testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:45)oggger - debug logs
+22:16:23.109 [main] INFO  testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:67)oggger -  *** Finished TC010_LogoutThenBack *** 
+22:18:31.471 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+22:18:31.826 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+22:18:31.979 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+22:18:34.411 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title
+22:18:37.913 [main] ERROR testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:49)oggger - Test failed
+22:18:37.914 [main] DEBUG testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:50)oggger - Debugs logs
+22:19:23.501 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+22:19:23.752 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+22:19:26.218 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+22:19:26.346 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title
+22:19:31.857 [main] ERROR testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:49)oggger - Test failed
+22:19:31.858 [main] DEBUG testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:50)oggger - Debugs logs
+22:20:38.068 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+22:20:38.441 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+22:20:39.235 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+22:20:43.049 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title
+22:20:52.721 [main] ERROR testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:49)oggger - Test failed
+22:20:52.723 [main] DEBUG testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:50)oggger - Debugs logs
+23:49:51.167 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+23:49:51.413 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+23:49:53.851 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+23:49:54.043 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title
+23:49:57.686 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:72)oggger -  *** Finished TC009_LoginThenBackBotton*** 
+23:54:32.193 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+23:54:32.469 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+23:54:32.562 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+23:54:35.021 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title
+23:54:38.726 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:72)oggger -  *** Finished TC009_LoginThenBackBotton*** 
+23:57:34.305 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:15)oggger - *** Starting TC009_LoginThenBackBotton ***
+23:57:35.018 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:24)oggger - Providing customer details
+23:57:35.752 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:26)oggger - clicking to login
+23:57:37.978 [main] INFO  testCasesLogin.TC009_LoginThenBackBotton.login(TC009_LoginThenBackBotton.java:35)oggger - Validating expected page title

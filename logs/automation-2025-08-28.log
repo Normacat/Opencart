@@ -1,3 +1,3 @@
-14:25:45.549 [main] INFO  testCases.TC005_LoginWithInvalidUserName.loginWithInvalidUserName(TC005_LoginWithInvalidUserName.java:49)oggger - ****** Finished TC005_LoginWithInvalidUserName ******
-14:25:51.709 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:15)oggger -  **** Starting TC006_LoginWithInvalidPassword *****
-14:25:51.832 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:23)oggger - Providing customer details
+16:29:46.901 [main] INFO  testCases.TC005_LoginWithInvalidUserName.loginWithInvalidUserName(TC005_LoginWithInvalidUserName.java:49)oggger - ****** Finished TC005_LoginWithInvalidUserName ******
+16:29:49.893 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:15)oggger -  **** Starting TC006_LoginWithInvalidPassword *****
+16:29:50.106 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:23)oggger - Providing customer details

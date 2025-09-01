@@ -1,2 +1,13 @@
-14:25:54.283 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:26)oggger - Clicking to login
-14:25:54.319 [main] INFO  testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword(TC006_LoginWithInvalidPassword.java:45)oggger -  *****Finished TC006_LoginWithInvalidPassword ******
+00:04:31.505 [main] INFO  testCasesLogin.TC008_loginWithTabs.loginWithTabs(TC008_loginWithTabs.java:17)oggger - ****** Starting TC008_loginWithTabs *****
+00:04:31.667 [main] INFO  testCasesLogin.TC008_loginWithTabs.loginWithTabs(TC008_loginWithTabs.java:27)oggger - Providing customer details
+00:04:34.630 [main] INFO  testCasesLogin.TC008_loginWithTabs.loginWithTabs(TC008_loginWithTabs.java:30)oggger - Clicking to login
+00:04:35.691 [main] INFO  testCasesLogin.TC008_loginWithTabs.loginWithTabs(TC008_loginWithTabs.java:54)oggger - ****** Finished TC008_loginWithTabs *****
+00:05:00.867 [main] ERROR testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:45)oggger - Test failed
+00:05:00.871 [main] DEBUG testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:46)oggger - debug logs
+00:05:01.563 [main] INFO  testCasesLogin.TC010_LogoutThenBack.login(TC010_LogoutThenBack.java:72)oggger -  *** Finished TC010_LogoutThenBack *** 
+00:41:18.333 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
+00:41:18.689 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
+00:41:19.351 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
+00:41:39.654 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
+00:41:40.000 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
+00:41:42.795 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login

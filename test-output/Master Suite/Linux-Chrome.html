@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Linux-Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 28 14:22:15 CST 2025</td>
+<td>Started on:</td><td>Mon Sep 01 00:41:11 CST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103982 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18313 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master Sanity Regression </td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName()'><b>ValidatingUserProfileName</b><br>Test class: testCases.TC003_ValidatingUserProfile</td>
+<td title='testCasesLogin.TC001_LoginTest.login()'><b>login</b><br>Test class: testCasesLogin.TC001_LoginTest</td>
 <td><div><pre>java.lang.AssertionError: null
-	at testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:49)
+	at testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:55)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1537371824", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1537371824'><pre>java.lang.AssertionError: null
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1494794848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1494794848'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:49)
+	at testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:55)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -112,242 +112,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>10</td>
-<td>testCases.TC003_ValidatingUserProfile@37ceb1df</td></tr>
-<tr>
-<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: test01, test01, invalid</td>
-<td><div><pre>java.lang.AssertionError: null
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1094446968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1094446968'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>15</td>
-<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
-<tr>
-<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: test02, test02, invalid</td>
-<td><div><pre>java.lang.AssertionError: null
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2102562039", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2102562039'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>12</td>
-<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()'><b>loginWithInvalidCreddentials</b><br>Test class: testCases.TC002_LoginTestWithInvalidCredentials</td>
-<td><div><pre>java.lang.AssertionError: expected [El usuario o el password no son correctos, verifique sus datos.] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;LearFlex&quot;]/table/tbody/tr[1]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr/td/ul/li&quot;}
-  (Session info: chrome=138.0.7204.183)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [1ed578f558d85466d3776cfdc66d89d7, findElement {using=xpath, value=//*[@id=&quot;LearFlex&quot;]/table/tbody/tr[1]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr/td/ul/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: 06392d4896a3, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ed578f558d85466d3776cfdc66d89d7]
-	at testCases.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1293495023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1293495023'><pre>java.lang.AssertionError: expected [El usuario o el password no son correctos, verifique sus datos.] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;LearFlex&quot;]/table/tbody/tr[1]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr/td/ul/li&quot;}
-  (Session info: chrome=138.0.7204.183)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [1ed578f558d85466d3776cfdc66d89d7, findElement {using=xpath, value=//*[@id=&quot;LearFlex&quot;]/table/tbody/tr[1]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr/td/ul/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: 06392d4896a3, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ed578f558d85466d3776cfdc66d89d7]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testCases.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:23)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>10</td>
-<td>testCases.TC002_LoginTestWithInvalidCredentials@70325e14</td></tr>
-<tr>
-<td title='testCases.TC001_LoginTest.login()'><b>login</b><br>Test class: testCases.TC001_LoginTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at testCases.TC001_LoginTest.login(TC001_LoginTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace891232836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace891232836'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC001_LoginTest.login(TC001_LoginTest.java:55)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>10</td>
-<td>testCases.TC001_LoginTest@7bedc48a</td></tr>
-<tr>
-<td title='testCases.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCases.TC004_LoginDDT<br>Parameters: LEAR_PR07, Mexico*2024, valid</td>
-<td><div><pre>java.lang.AssertionError: null
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1699637904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1699637904'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>12</td>
-<td>testCases.TC004_LoginDDT@7c9d8e2</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC005_LoginWithInvalidUserName.loginWithInvalidUserName()'><b>loginWithInvalidUserName</b><br>Test class: testCases.TC005_LoginWithInvalidUserName</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_LoginWithInvalidUserName@20d525</td></tr>
-<tr>
-<td title='testCases.TC006_LoginWithInvalidPassword.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: testCases.TC006_LoginWithInvalidPassword</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_LoginWithInvalidPassword@6200f9cb</td></tr>
+<td>11</td>
+<td>testCasesLogin.TC001_LoginTest@544fa968</td></tr>
 </table><p>
 </body>
 </html>

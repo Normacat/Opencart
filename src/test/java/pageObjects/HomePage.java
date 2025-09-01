@@ -52,6 +52,23 @@ public class HomePage extends BasePage{
 			return(false);
 			
 		}
+		
+	}
+	
+	public void navigateBack(WebDriver driver) {
+
+		driver.navigate().back();
+	}
+	
+	public void switchAlertAccept(WebDriver driver) {
+
+		driver.switchTo().alert().accept();
+	}
+	
+	
+	public void navigateRefresh(WebDriver driver) {
+		
+		driver.navigate().refresh();
 	}
 	
 	
