@@ -10,6 +10,8 @@ C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC005_Log
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC006_LoginWithInvalidPassword.java
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC007_loginWithoutAnyCredentials.java
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC008_loginWithTabs.java
+C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC009_LoginThenBackBotton.java
+C:\Users\norma\eclipse-workspace\Opencart\src\test\java\testCasesLogin\TC010_LogoutThenBack.java
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\utilities\DataProviders.java
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\utilities\ExcelUtility.java
 C:\Users\norma\eclipse-workspace\Opencart\src\test\java\utilities\ExtentReportManager.java

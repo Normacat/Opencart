@@ -36,7 +36,6 @@ public class TC001_LoginTest extends BaseClass {
 		
 		if(pageusername.equals("BANDA SIETE MENOS ELECTRICAL S XXI")){
 			
-			
 			hp.clickLogOut();
 			Assert.assertTrue(true);
 		} else {

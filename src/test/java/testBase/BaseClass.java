@@ -56,7 +56,7 @@ public class BaseClass {
 
 			else {
 				System.out.println("No matching os");
-				return;
+				return; // to exit the execution
 			}
 
 			switch (br.toLowerCase()) {
@@ -71,11 +71,11 @@ public class BaseClass {
 				break;
 			default:
 				System.out.println("No matching browser");
-				return;
+				return; // To exit the execution
 
 			}
 
-			driver = new RemoteWebDriver(new URL("http://192.168.1.81:4444/wd/hub"), cap);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
 
 		}
 
@@ -108,8 +108,9 @@ public class BaseClass {
 
 	
 	  
-	 @AfterClass(groups = { "Sanity", "Regression", "Master" }) public void
-	 tearDown() { driver.quit();
+	 @AfterClass(groups = { "Sanity", "Regression", "Master" }) 
+	 public void tearDown() { 
+		 driver.quit();
 	 
 	
 	  }

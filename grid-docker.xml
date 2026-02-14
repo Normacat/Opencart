@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Master Suite" thread-count="5">
+<suite name="Master Suite" thread-count="5"  >
 
 <groups>
 	<run>
@@ -15,13 +15,13 @@
 	</listeners>
 	
 <test name="Linux-Chrome">
-<parameter name="os" value="Linux"></parameter>
+<parameter name="os" value="linux"></parameter>
 <parameter name="browser" value="chrome"></parameter>
   
 	<classes>
-	<class name="testCasesLogin.TC001_LoginTest" />
-<!-- 	<class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
-	<class name="testCasesLogin.TC003_ValidatingUserProfile" />
+	<class name="testCasesLogin.TC001_LoginTest" /> 
+	<class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
+	<!-- 	<class name="testCasesLogin.TC003_ValidatingUserProfile" />
 	<class name="testCasesLogin.TC004_LoginDDT" />
 	<class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
 	<class name="testCasesLogin.TC006_LoginWithInvalidPassword" />
@@ -33,14 +33,14 @@
   </test> <!-- Test -->
   
   
-  <test name="Linux-Edge">
-<parameter name="os" value="Linux"></parameter>
+  <test name="Linux-Firefox">
+<parameter name="os" value="linux"></parameter>
 <parameter name="browser" value="firefox"></parameter>
   
 	<classes>
 	<class name="testCasesLogin.TC001_LoginTest" />
-<!-- 	<class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
-	<class name="testCasesLogin.TC003_ValidatingUserProfile" />
+	 <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
+	<!--<class name="testCasesLogin.TC003_ValidatingUserProfile" />
 	<class name="testCasesLogin.TC004_LoginDDT" />
 	<class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
 	<class name="testCasesLogin.TC006_LoginWithInvalidPassword" />
@@ -48,8 +48,25 @@
 	<class name="testCasesLogin.TC008_loginWithTabs"></class>
 	<class name="testCasesLogin.TC009_LoginThenBackBotton"></class>
 	<class name="testCasesLogin.TC010_LogoutThenBack"></class> -->
-	</classes>
+	</classes> 
   </test> <!-- Test -->
   
   
+   <test name="Linux-Edge">
+<parameter name="os" value="linux"></parameter>
+<parameter name="browser" value="edge"></parameter>
+  
+	<classes> 
+	<class name="testCasesLogin.TC001_LoginTest" />
+	<class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
+	<!--  <class name="testCasesLogin.TC003_ValidatingUserProfile" />
+	<class name="testCasesLogin.TC004_LoginDDT" />
+	<class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
+	<class name="testCasesLogin.TC006_LoginWithInvalidPassword" />
+	<class name="testCasesLogin.TC007_loginWithoutAnyCredentials"></class>
+	<class name="testCasesLogin.TC008_loginWithTabs"></class>
+	<class name="testCasesLogin.TC009_LoginThenBackBotton"></class>
+	<class name="testCasesLogin.TC010_LogoutThenBack"></class>  -->
+	</classes> 
+  </test>   
 </suite> <!-- Suite -->

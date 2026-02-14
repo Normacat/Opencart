@@ -1,4 +1,4 @@
-package utilities;
+ package utilities;
 
 
 import java.awt.Desktop;
@@ -27,14 +27,22 @@ import testBase.BaseClass;
 
 public class ExtentReportManager implements ITestListener{
 	
-	public ExtentSparkReporter sparkReporter;
-	public ExtentReports extent;
-	public ExtentTest test;
+	public ExtentSparkReporter sparkReporter; //UI of the extent report
+	public ExtentReports extent; // porpulate common info on the report
+	public ExtentTest test; //create tests cases entries and update status of the test methods
 	
 	String repName;
 	
-	public void onStart(ITestContext testContext) {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); //Time stamp
+	public void onStart(ITestContext testContext) { //will execute only once	
+		
+		//timestamp store in 3 variables
+		/* 
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
+		Date dt = new Date();
+		String currentDate = sdf.format(dt);
+		*/
+		
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); //Time stamp store in 1 variable
 		repName = "Test-Report-" + timeStamp + ".html";
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName ); //Specify the location of the report
 		
@@ -50,24 +58,24 @@ public class ExtentReportManager implements ITestListener{
 		extent.setSystemInfo("UserName", System.getProperty("user.name"));
 		extent.setSystemInfo("Environment", "QA");
 		
-		String os = testContext.getCurrentXmlTest().getParameter("os");
+		String os = testContext.getCurrentXmlTest().getParameter("os");//get the os parameter into the report
 		extent.setSystemInfo("Operating System", os);
 		
-		String browser = testContext.getCurrentXmlTest().getParameter("browser");
+		String browser = testContext.getCurrentXmlTest().getParameter("browser"); // get the browser parameter into the report
 		extent.setSystemInfo("Browser", browser);
 
-		List <String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
-		if(!includedGroups.isEmpty()) {
-			extent.setSystemInfo("Groups", includedGroups.toString());
+		List <String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups(); // get the list of the groups
+		if(!includedGroups.isEmpty()) { //if the included groups is not empty then
+			extent.setSystemInfo("Groups", includedGroups.toString()); //write the groups into the report
 		}
 		
 	  }
 	
 		public void onTestSuccess(ITestResult result) {
 			
-			test = extent.createTest(result.getTestClass().getName());
+			test = extent.createTest(result.getTestClass().getName());//Create a new entry of the result with getTestClass, we're getting the name
 			test.assignCategory(result.getMethod().getGroups()); //To display groups in the report
-			test.log(Status.PASS, result.getName() + " Got succesfully executed"); 
+			test.log(Status.PASS, result.getName() + " got succesfully executed"); 
 			
 		}
 		
@@ -75,12 +83,13 @@ public class ExtentReportManager implements ITestListener{
 		    test = extent.createTest(result.getTestClass().getName());
 		    test.assignCategory(result.getMethod().getGroups());
 		    
-		    test.log(Status.FAIL, result.getName() + "Got failed");
+		    test.log(Status.FAIL, result.getName() + " got failed");
 		    test.log(Status.INFO, result.getThrowable().getMessage());
 		    
 		    
-		    try {
-		    	String imgPath = new BaseClass().captureScreen(result.getName());
+		    try {// if the screenshoot is not properly taken or is not available we will get FileNotFoundException 
+		    	String imgPath = new BaseClass().captureScreen(result.getName()); //create an object of base class but avoid to store in a variable
+		    	//and from that object call captureScreen method, and that method is expecting a parameter the name in a String format, so we need to pass the name which is the result getName
 		    	test.addScreenCaptureFromPath(imgPath); //attach the screenshot in the report
 		    	
 		    } catch (IOException e1) {
@@ -100,7 +109,7 @@ public class ExtentReportManager implements ITestListener{
 		
 		public void onFinish(ITestContext testContext) {
 		    
-			extent.flush();
+			extent.flush(); //Consolidate all the information from the report and finally generate it
 			String pathOfExtentReport = System.getProperty("user.dir") + "\\reports\\" + repName;
 			File extenReport = new File(pathOfExtentReport);
 			
