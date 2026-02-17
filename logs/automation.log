@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 23:29:14.965 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
 23:29:15.225 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
 23:29:24.340 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
@@ -6,3 +7,24 @@
 23:29:49.907 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
 23:29:50.044 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
 23:29:50.044 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+=======
+16:52:34.325 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+16:52:34.545 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+16:52:34.546 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+18:30:04.628 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
+18:30:04.914 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
+18:30:05.019 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
+18:30:23.056 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+18:30:23.302 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+18:30:23.402 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+18:30:27.033 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+18:30:27.034 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+18:35:20.845 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
+18:35:21.097 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
+18:35:21.186 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
+18:35:36.604 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+18:35:36.977 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+18:35:37.654 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+18:35:41.057 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+18:35:41.058 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+>>>>>>> f099d6dd7c55ac36c62daaca3e40d8cc68ba6eff
