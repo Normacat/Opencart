@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.95 s <<< FAILURE! -- in TestSuite
-testCasesLogin.TC001_LoginTest.login -- Time elapsed: 11.01 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.08 s <<< FAILURE! -- in TestSuite
+testCasesLogin.TC001_LoginTest.login -- Time elapsed: 16.91 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
