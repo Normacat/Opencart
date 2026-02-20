@@ -25,15 +25,20 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+
 public class BaseClass {
 
 	public Logger logger;
 	public static WebDriver driver;
 	public Properties p;
 
+	
+	//@Given("lounch browser")
 	@Parameters({ "os", "browser" })
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
-	public void lounchBrowser(String os, String br) throws IOException {
+	public void lounch_browser(String os, String br) throws IOException {
 
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 
@@ -75,7 +80,7 @@ public class BaseClass {
 
 			}
 
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+			driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), cap);
 
 		}
 
@@ -104,14 +109,15 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
+		
 	}
 
 	
-	  
+	 //@And("tearDown")
 	 @AfterClass(groups = { "Sanity", "Regression", "Master" }) 
 	 public void tearDown() { 
 		 driver.quit();
-	 
+		 
 	
 	  }
 

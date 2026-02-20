@@ -3,33 +3,42 @@ services:
     image: selenium/node-chrome:4.40.0-20260202
     platform: linux/amd64
     shm_size: 2gb
-    depends_on:
-      - selenium-hub
+
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
       - VNC_NO_PASSWORD=1 
-      - SE_NODE_MAX_SESSIONS=2
+      - SE_NODE_MAX_SESSIONS=3
+    depends_on:
+      - selenium-hub
 
   edge:
     image: selenium/node-edge:4.40.0-20260202
     platform: linux/amd64
     shm_size: 2gb
-    depends_on:
-      - selenium-hub
+
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
       - VNC_NO_PASSWORD=1 
-      - SE_NODE_MAX_SESSIONS=2
+      - SE_NODE_MAX_SESSIONS=3
+    depends_on:
+      - selenium-hub
 
   firefox:
     image: selenium/node-firefox:4.40.0-20260202
     shm_size: 2gb
-    depends_on:
-      - selenium-hub
+
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
       - VNC_NO_PASSWORD=1 
-      - SE_NODE_MAX_SESSIONS=2
+      - SE_NODE_MAX_SESSIONS=3
+    depends_on:
+      - selenium-hub
 
   selenium-hub:
     image: selenium/hub:4.40.0-20260202
@@ -37,4 +46,4 @@ services:
     ports:
       - "4442:4442"
       - "4443:4443"
-      - "4444:4444"
+      - "4445:4444"
