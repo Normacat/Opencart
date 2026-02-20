@@ -31,7 +31,7 @@ import io.cucumber.java.en.Given;
 public class BaseClass {
 
 	public Logger logger;
-	public static WebDriver driver;
+	public WebDriver driver;
 	public Properties p;
 
 	
