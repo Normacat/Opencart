@@ -1,0 +1,33 @@
+12:22:00.996 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:676)oggger - Save content types part
+12:22:01.001 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:683)oggger - Save package relationships
+12:22:01.003 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/app.xml'
+12:22:01.004 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/core.xml'
+12:22:01.007 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/sharedStrings.xml'
+12:22:01.010 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/styles.xml'
+12:22:01.011 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/theme/theme1.xml'
+12:22:01.012 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/workbook.xml'
+12:22:01.014 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/worksheets/sheet1.xml'
+12:22:01.021 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.022 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.074 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:676)oggger - Save content types part
+12:22:01.078 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:683)oggger - Save package relationships
+12:22:01.080 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/app.xml'
+12:22:01.082 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/core.xml'
+12:22:01.083 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/sharedStrings.xml'
+12:22:01.083 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/styles.xml'
+12:22:01.083 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/theme/theme1.xml'
+12:22:01.085 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/workbook.xml'
+12:22:01.087 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/worksheets/sheet1.xml'
+12:22:01.119 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.122 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.190 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.192 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.241 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.243 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.271 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.280 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.317 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:676)oggger - Save content types part
+12:22:01.320 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:683)oggger - Save package relationships
+12:22:01.322 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/app.xml'
+12:22:01.322 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/core.xml'
+12:22:01.324 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/sharedStrings.xml'

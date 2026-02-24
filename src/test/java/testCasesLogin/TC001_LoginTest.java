@@ -22,8 +22,9 @@ public class TC001_LoginTest extends BaseClass {
 		//HomePageLogin
 		try {
 		
+		
 		PageHomeLogin phl = new PageHomeLogin(driver);
-		phl.setUserName(p.getProperty("user"));;
+		phl.setUserNameWithRandomeString();
 		phl.setPassword(p.getProperty("pwd"));
 		logger.info("Providing customer details");
 		phl.clickLogin();

@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import testBase.BaseClass;
+
 
 public class PageHomeLogin extends BasePage{
 	
@@ -39,6 +41,14 @@ public class PageHomeLogin extends BasePage{
 		
 		actions.sendKeys(Keys.TAB).sendKeys(username).perform();;
 		//actions.keyDown(Keys.TAB).keyUp(Keys.TAB).sendKeys(username).perform();
+		
+	}
+	
+	public void setUserNameWithRandomeString() {
+		
+		BaseClass bc = new BaseClass();
+		
+		txt_user_loc.sendKeys(bc.setRandomeAlphabeticNumber());
 		
 	}
 	
