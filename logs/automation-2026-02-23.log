@@ -1,0 +1,29 @@
+18:44:47.749 [TestNG-tests-2] ERROR testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:100)oggger - Test failed
+18:44:47.762 [TestNG-tests-2] DEBUG testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:101)oggger - Debugs logs
+18:44:47.762 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:117)oggger -  *** Finished TC001_LoginTest *** 
+18:50:04.988 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:50:05.541 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+18:50:05.636 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:50:05.799 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:50:06.039 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+18:50:06.150 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:50:11.602 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:50:11.715 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+18:50:14.086 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:50:16.242 [TestNG-tests-1] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:50:16.244 [TestNG-tests-1] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:50:16.253 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***
+18:50:18.323 [TestNG-tests-3] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:50:18.324 [TestNG-tests-3] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:50:18.324 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***
+18:50:24.110 [TestNG-tests-2] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:50:24.111 [TestNG-tests-2] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:50:24.111 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***
+18:52:03.544 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:52:05.665 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+18:52:06.055 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:52:07.937 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details
+18:52:10.162 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:52:10.826 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:52:15.029 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:16)oggger - *** TC003_ValidatingUserProfile ***
+18:52:16.818 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:25)oggger - Providing customer details

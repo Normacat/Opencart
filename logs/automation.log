@@ -1,22 +1,10 @@
-15:54:57.638 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-15:54:57.657 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:54:57.659 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:54:57.662 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-15:54:57.676 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-15:54:57.694 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:54:57.696 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:54:57.697 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-15:54:57.716 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-15:54:57.745 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:54:57.747 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:54:57.748 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-15:54:57.771 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-15:54:57.819 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-15:54:58.087 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-15:54:58.675 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
-15:55:09.302 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-15:55:09.475 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-15:55:13.571 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
-15:55:24.254 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-15:55:24.519 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-15:55:24.613 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+18:52:20.276 [TestNG-tests-3] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:52:20.292 [TestNG-tests-3] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:52:20.296 [TestNG-tests-3] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***
+18:52:21.042 [TestNG-tests-1] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:52:21.043 [TestNG-tests-1] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:52:21.043 [TestNG-tests-1] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***
+18:52:21.494 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:27)oggger - clicking to login
+18:52:31.562 [TestNG-tests-2] ERROR testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:40)oggger - Test failed
+18:52:31.563 [TestNG-tests-2] DEBUG testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:41)oggger - Debugs logs
+18:52:31.563 [TestNG-tests-2] INFO  testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName(TC003_ValidatingUserProfile.java:52)oggger - *** Finished TC003_ValidatingUserProfile ***

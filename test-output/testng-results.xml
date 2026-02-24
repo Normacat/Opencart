@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-20T15:54:50 CST" name="Master Suite" finished-at="2026-02-20T15:55:38 CST" duration-ms="47236">
+  <suite started-at="2026-02-23T18:51:53 CST" name="Grid-Docker" finished-at="2026-02-23T18:52:33 CST" duration-ms="39863">
     <groups>
-      <group name="Sanity">
-        <method signature="TC004_LoginDDT.verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" name="verify_LoginDDT" class="testCasesLogin.TC004_LoginDDT"/>
-      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
+        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
+        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-02-20T15:54:50 CST" name="Test" finished-at="2026-02-20T15:55:38 CST" duration-ms="47236">
-      <class name="testCasesLogin.TC004_LoginDDT">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" started-at="2026-02-20T15:54:51 CST" name="lounch_browser" finished-at="2026-02-20T15:54:56 CST" duration-ms="4969" status="PASS">
+    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Chrome" finished-at="2026-02-23T18:52:21 CST" duration-ms="27917">
+      <class name="testCasesLogin.TC003_ValidatingUserProfile">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:03 CST" duration-ms="9455" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -26,188 +28,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounch_browser -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" started-at="2026-02-20T15:54:57 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-20T15:55:08 CST" duration-ms="11072" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test02]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test02]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:52:03 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:21 CST" duration-ms="17547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" started-at="2026-02-20T15:55:09 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-20T15:55:23 CST" duration-ms="14442" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test01]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" started-at="2026-02-20T15:55:24 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-20T15:55:37 CST" duration-ms="12936" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LEAR_PR07]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mexico*2024]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC004_LoginDDT@9597028]" started-at="2026-02-20T15:55:37 CST" name="tearDown" finished-at="2026-02-20T15:55:38 CST" duration-ms="292" status="PASS">
+        </test-method> <!-- ValidatingUserProfileName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:52:21 CST" name="tearDown" finished-at="2026-02-23T18:52:21 CST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC004_LoginDDT -->
-    </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
+    </test> <!-- Linux-Chrome -->
+    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Edge" finished-at="2026-02-23T18:52:21 CST" duration-ms="27567">
+      <class name="testCasesLogin.TC003_ValidatingUserProfile">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:06 CST" duration-ms="12032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:52:06 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:20 CST" duration-ms="14247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingUserProfileName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:52:20 CST" name="tearDown" finished-at="2026-02-23T18:52:21 CST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
+    </test> <!-- Linux-Edge -->
+    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Firefox" finished-at="2026-02-23T18:52:33 CST" duration-ms="39863">
+      <class name="testCasesLogin.TC003_ValidatingUserProfile">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:15 CST" duration-ms="21011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:52:15 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:31 CST" duration-ms="16536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingUserProfileName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:52:31 CST" name="tearDown" finished-at="2026-02-23T18:52:33 CST" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
+    </test> <!-- Linux-Firefox -->
+  </suite> <!-- Grid-Docker -->
 </testng-results>
