@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCasesLogin.TC009_LoginThenBackBotton">
+      <class name="testCasesLogin.TC004_LoginDDT">
         <methods>
-          <include name="login"/>
-          <include name="lounchBrowser"/>
+          <include name="tearDown"/>
+          <include name="lounch_browser"/>
+          <include name="verify_LoginDDT"/>
         </methods>
-      </class> <!-- testCasesLogin.TC009_LoginThenBackBotton -->
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

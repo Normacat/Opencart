@@ -1,30 +1,30 @@
-<<<<<<< HEAD
-23:29:14.965 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
-23:29:15.225 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
-23:29:24.340 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
-23:29:45.625 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
-23:29:45.897 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
-23:29:49.907 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
-23:29:50.044 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
-23:29:50.044 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
-=======
-16:52:34.325 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
-16:52:34.545 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
-16:52:34.546 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
-18:30:04.628 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
-18:30:04.914 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
-18:30:05.019 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
-18:30:23.056 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
-18:30:23.302 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
-18:30:23.402 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
-18:30:27.033 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
-18:30:27.034 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
-18:35:20.845 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:17)oggger - *** Starting TC001_LoginTest ***
-18:35:21.097 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:25)oggger - Providing customer details
-18:35:21.186 [main] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:27)oggger - clicking to login
-18:35:36.604 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
-18:35:36.977 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
-18:35:37.654 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
-18:35:41.057 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
-18:35:41.058 [main] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
->>>>>>> f099d6dd7c55ac36c62daaca3e40d8cc68ba6eff
+12:22:01.324 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/styles.xml'
+12:22:01.327 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/theme/theme1.xml'
+12:22:01.329 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/workbook.xml'
+12:22:01.339 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/worksheets/sheet1.xml'
+12:22:01.357 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.361 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.441 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:676)oggger - Save content types part
+12:22:01.443 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:683)oggger - Save package relationships
+12:22:01.448 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/app.xml'
+12:22:01.449 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'docProps/core.xml'
+12:22:01.450 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/sharedStrings.xml'
+12:22:01.451 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/styles.xml'
+12:22:01.451 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/theme/theme1.xml'
+12:22:01.452 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/workbook.xml'
+12:22:01.454 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:700)oggger - Save part 'xl/worksheets/sheet1.xml'
+12:22:01.461 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.462 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.512 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.513 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.533 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:22:01.541 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+12:22:01.594 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+12:22:01.867 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+12:22:02.328 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+12:22:12.850 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+12:22:13.061 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+12:22:13.143 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+12:22:23.596 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+12:22:23.814 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+12:22:23.914 [main] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Linux-Chrome(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
         <include name="Master"/>
@@ -15,53 +15,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCasesLogin.TC001_LoginTest">
+      <class name="testCasesLogin.TC004_LoginDDT">
         <methods>
+          <include name="lounch_browser"/>
           <include name="tearDown"/>
-          <include name="login"/>
-          <include name="lounchBrowser"/>
+          <include name="verify_LoginDDT" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- testCasesLogin.TC001_LoginTest -->
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </classes>
-  </test> <!-- Linux-Chrome(failed) -->
-  <test thread-count="5" name="Linux-Firefox(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-        <include name="Regression"/>
-        <include name="Sanity"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCasesLogin.TC001_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="login"/>
-          <include name="lounchBrowser"/>
-        </methods>
-      </class> <!-- testCasesLogin.TC001_LoginTest -->
-    </classes>
-  </test> <!-- Linux-Firefox(failed) -->
-  <test thread-count="5" name="Linux-Edge(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="edge"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-        <include name="Regression"/>
-        <include name="Sanity"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCasesLogin.TC001_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="login"/>
-          <include name="lounchBrowser"/>
-        </methods>
-      </class> <!-- testCasesLogin.TC001_LoginTest -->
-    </classes>
-  </test> <!-- Linux-Edge(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -20,16 +20,17 @@
 <parameter name="browser" value="chrome"></parameter>
   <test thread-count="5"  name="Test">
 	<classes>
-	   <class name="testCasesLogin.TC001_LoginTest" /> 
-	<class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" /> 
-	<!--  <class name="testCasesLogin.TC003_ValidatingUserProfile" />
+	 <!--  <class name="testCasesLogin.TC001_LoginTest" /> -->
+	 <!--  class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" /> -->
+	<!--  <class name="testCasesLogin.TC003_ValidatingUserProfile" />-->
 	<class name="testCasesLogin.TC004_LoginDDT" />
-	<class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
+	<!--  <class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
 	<class name="testCasesLogin.TC006_LoginWithInvalidPassword" />
 	<class name="testCasesLogin.TC007_loginWithoutAnyCredentials" />
 	<class name="testCasesLogin.TC008_loginWithTabs"></class>
 	<class name="testCasesLogin.TC009_LoginThenBackBotton"></class>
 	<class name="testCasesLogin.TC010_LogoutThenBack"></class>  -->
+	
 			
 	</classes>
   </test> <!-- Test -->

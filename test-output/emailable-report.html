@@ -9,29 +9,21 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Master Suite</th></tr>
-<tr><td><a href="#t0">Linux-Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">37,342</td><td>Master, Sanity, Regression</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Linux-Firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,687</td><td>Master, Sanity, Regression</td><td></td></tr>
-<tr><td><a href="#t2">Linux-Edge</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">41,543</td><td>Master, Sanity, Regression</td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">126,572</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">42,471</td><td>Master, Sanity, Regression</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Linux-Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCasesLogin.TC001_LoginTest</td><td><a href="#m0">login</a></td><td rowspan="1">1770591037911</td><td rowspan="1">13888</td></tr><tr><th colspan="4">Linux-Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCasesLogin.TC002_LoginTestWithInvalidCredentials</td><td><a href="#m1">loginWithInvalidCreddentials</a></td><td rowspan="1">1770591059702</td><td rowspan="1">3489</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Linux-Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCasesLogin.TC001_LoginTest</td><td><a href="#m2">login</a></td><td rowspan="1">1770591075665</td><td rowspan="1">17070</td></tr><tr><th colspan="4">Linux-Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCasesLogin.TC002_LoginTestWithInvalidCredentials</td><td><a href="#m3">loginWithInvalidCreddentials</a></td><td rowspan="1">1770591103054</td><td rowspan="1">8427</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Linux-Edge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCasesLogin.TC001_LoginTest</td><td><a href="#m4">login</a></td><td rowspan="1">1770591128007</td><td rowspan="1">16346</td></tr><tr><th colspan="4">Linux-Edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCasesLogin.TC002_LoginTestWithInvalidCredentials</td><td><a href="#m5">loginWithInvalidCreddentials</a></td><td rowspan="1">1770591148558</td><td rowspan="1">5988</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">testCasesLogin.TC004_LoginDDT</td><td><a href="#m0">verify_LoginDDT</a></td><td rowspan="3">1771870932849</td><td rowspan="3">10429</td></tr><tr class="failedeven"><td><a href="#m1">verify_LoginDDT</a></td></tr><tr class="failedeven"><td><a href="#m2">verify_LoginDDT</a></td></tr></tbody>
 </table>
-<h2>Linux-Chrome</h2><h3 id="m0">testCasesLogin.TC001_LoginTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+<h2>Test</h2><h3 id="m0">testCasesLogin.TC004_LoginDDT#verify_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>fDnTP</td><td>fDnTP</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCasesLogin.TC002_LoginTestWithInvalidCredentials#loginWithInvalidCreddentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Linux-Firefox</h2><h3 id="m2">testCasesLogin.TC001_LoginTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+<h3 id="m1">testCasesLogin.TC004_LoginDDT#verify_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>PmWXp</td><td>PmWXp</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCasesLogin.TC002_LoginTestWithInvalidCredentials#loginWithInvalidCreddentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Linux-Edge</h2><h3 id="m4">testCasesLogin.TC001_LoginTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+<h3 id="m2">testCasesLogin.TC004_LoginDDT#verify_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>JjjMm</td><td>JjjMm</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCasesLogin.TC002_LoginTestWithInvalidCredentials#loginWithInvalidCreddentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
