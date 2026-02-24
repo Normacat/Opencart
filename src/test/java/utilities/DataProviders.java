@@ -50,13 +50,16 @@ public class DataProviders {
 		int totalcolumns = xlutil.getCellCount("Sheet1", 1);
 		
 		String logindata[][] = new String[totalrows][totalcolumns];
-		
+	
 		/*
+
+
 		for(int i=1; i<=totalrows; i++) {
 			
 			String data = RandomStringUtils.randomAlphabetic(5);
 			xlutil.setCellData("Sheet1", i, 0, data);
 			xlutil.setCellData("Sheet1", i, 1, data);
+
 		}
 		*/
 		
@@ -65,12 +68,14 @@ public class DataProviders {
 			String data = RandomStringUtils.randomAlphabetic(5);
 			xlutil.setCellData("Sheet1", i, 0, data);
 			xlutil.setCellData("Sheet1", i, 1, data);
+
+			
+
 			for (int j=0; j<totalcolumns; j++){
 				
 				logindata[i-1][j] = xlutil.getCellData("Sheet1", i, j);
 				
 			}
-			
 			
 		}
 		

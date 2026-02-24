@@ -4,9 +4,15 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
+<<<<<<< HEAD
   <test thread-count="5" parallel="tests" name="Linux-Firefox(failed)">
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="firefox"/>
+=======
+  <test thread-count="5" parallel="tests" name="Linux-Chrome(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+>>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
     <groups>
       <run>
         <include name="Master"/>
@@ -15,11 +21,16 @@
       </run>
     </groups>
     <classes>
+<<<<<<< HEAD
       <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
+=======
+      <class name="testCasesLogin.TC003_ValidatingUserProfile">
+>>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
         <methods>
           <include name="loginWithInvalidCreddentials"/>
           <include name="lounch_browser"/>
           <include name="tearDown"/>
+<<<<<<< HEAD
         </methods>
       </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
     </classes>
@@ -44,4 +55,11 @@
       </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
     </classes>
   </test> <!-- Linux-Edge(failed) -->
+=======
+          <include name="ValidatingUserProfileName"/>
+        </methods>
+      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
+    </classes>
+  </test> <!-- Linux-Chrome(failed) -->
+>>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
 </suite> <!-- Failed suite [Grid-Docker] -->

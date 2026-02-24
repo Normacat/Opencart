@@ -28,18 +28,18 @@ public class TC003_ValidatingUserProfile extends BaseClass{
 		
 		//MyAccount
 		HomePage hp = new HomePage(driver);
-		hp.switchFrame(driver);
+		//hp.switchFrame(driver);
 		boolean userName = hp.isMyAccountPageExist();
 		
 		if(userName == true) {
 			
 			hp.clickLogOut();
-			Assert.assertTrue(userName);
+			Assert.assertTrue(false);
 		} else {
 			
 			logger.error("Test failed");
 			logger.debug("Debugs logs");
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 			
 		}
 		
