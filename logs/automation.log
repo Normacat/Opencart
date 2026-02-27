@@ -1,1 +1,26 @@
-21:33:36.923 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:21.504 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:24.306 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:25.242 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:25.242 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:25.291 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:25.295 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:26.581 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:26.801 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:26.999 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:27.713 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:34.432 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:34.438 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:34.679 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:37.518 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:38.277 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:38.281 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:38.867 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:39.367 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:40.294 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:40.299 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:41.178 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:41.594 [TestNG-tests-3] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+22:42:47.658 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
+22:42:47.663 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
+22:42:47.781 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
+22:42:50.314 [TestNG-tests-2] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login

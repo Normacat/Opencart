@@ -4,6 +4,26 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="Linux-Chrome(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+        <include name="Regression"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCasesLogin.TC004_LoginDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="lounch_browser"/>
+          <include name="verify_LoginDDT" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
+    </classes>
+  </test> <!-- Linux-Chrome(failed) -->
   <test thread-count="5" parallel="tests" name="Linux-Edge(failed)">
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="edge"/>
@@ -44,24 +64,4 @@
       </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </classes>
   </test> <!-- Linux-Firefox(failed) -->
-  <test thread-count="5" parallel="tests" name="Linux-Chrome(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-        <include name="Regression"/>
-        <include name="Sanity"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCasesLogin.TC004_LoginDDT">
-        <methods>
-          <include name="tearDown"/>
-          <include name="lounch_browser"/>
-          <include name="verify_LoginDDT" invocation-numbers="2"/>
-        </methods>
-      </class> <!-- testCasesLogin.TC004_LoginDDT -->
-    </classes>
-  </test> <!-- Linux-Chrome(failed) -->
 </suite> <!-- Failed suite [Grid-Docker] -->
