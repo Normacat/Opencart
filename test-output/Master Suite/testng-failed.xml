@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="os" value="windows"/>
+<suite parallel="tests" name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="linux"/>
   <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
     <groups>
       <run>
         <include name="Master"/>
@@ -17,9 +17,9 @@
     <classes>
       <class name="testCasesLogin.TC004_LoginDDT">
         <methods>
-          <include name="lounch_browser"/>
           <include name="tearDown"/>
-          <include name="verify_LoginDDT" invocation-numbers="0 1 2"/>
+          <include name="lounch_browser"/>
+          <include name="verify_LoginDDT" invocation-numbers="2"/>
         </methods>
       </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </classes>
