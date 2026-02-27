@@ -39,7 +39,7 @@
   
 	<classes>
 	 <class name="testCasesLogin.TC001_LoginTest" /> 
-	<!--  <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />-->
+	  <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials" />
 	<!--  <class name="testCasesLogin.TC003_ValidatingUserProfile" />-->
 	 <class name="testCasesLogin.TC004_LoginDDT" /> 
 	<!-- <class name="testCasesLogin.TC005_LoginWithInvalidUserName" />
