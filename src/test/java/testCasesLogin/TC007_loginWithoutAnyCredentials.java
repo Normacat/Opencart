@@ -15,7 +15,7 @@ public class TC007_loginWithoutAnyCredentials extends BaseClass{
 		
 		
 		try {
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		phl.setPassword(p.getProperty("pwd"));
 		
 		logger.info("Providing customer details");

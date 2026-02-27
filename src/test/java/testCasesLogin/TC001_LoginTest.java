@@ -23,7 +23,7 @@ public class TC001_LoginTest extends BaseClass {
 		try {
 		
 		
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		phl.setUserNameWithRandomeString();
 		phl.setPassword(p.getProperty("pwd"));
 		logger.info("Providing customer details");
@@ -81,7 +81,7 @@ public class TC001_LoginTest extends BaseClass {
 	public void user_is_navigated_to_the_landing_page() throws InterruptedException {
 		
 		try {
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(getDriver());
 		//hp.switchFrame(driver);
 		//String pageusername= hp.pageUserName();
 		//Assert.assertEquals(pagetitle, "AON FLEX");

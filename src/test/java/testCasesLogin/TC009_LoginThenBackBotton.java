@@ -17,7 +17,7 @@ public class TC009_LoginThenBackBotton extends BaseClass{
 		//HomePageLogin
 		try {
 		
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		
 		phl.setUserName(p.getProperty("user"));;
 		phl.setPassword(p.getProperty("pwd"));
@@ -27,8 +27,8 @@ public class TC009_LoginThenBackBotton extends BaseClass{
 		
 		
 		
-		HomePage hp = new HomePage(driver);
-		hp.switchFrame(driver);
+		HomePage hp = new HomePage(getDriver());
+		hp.switchFrame(getDriver());
 		String pageusername= hp.pageUserName();
 		
 		//Assert.assertEquals(pagetitle, "AON FLEX");
@@ -37,9 +37,9 @@ public class TC009_LoginThenBackBotton extends BaseClass{
 		if(pageusername.equals("BANDA SIETE MENOS ELECTRICAL S XXI")){
 			
 			//driver.navigate().back();
-			hp.navigateBack(driver);
+			hp.navigateBack(getDriver());
 			Thread.sleep(3000);
-			phl.switchAlert(driver);
+			phl.switchAlert(getDriver());
 			
 			
 			String msgOpenSession = phl.getMsgOpenSession();
@@ -47,9 +47,9 @@ public class TC009_LoginThenBackBotton extends BaseClass{
 			if(msgOpenSession.equals("Se ha detectado una sesión abierta con anterioridad. Por seguridad de tu información, es necesario cerrar la ventana anterior antes de ingresar nuevamente al sistema. Gracias.")) {
 				
 				Assert.assertTrue(true);
-				phl.navigateForward(driver);
-				phl.navigateRefresh(driver);
-				hp.switchFrame(driver);
+				phl.navigateForward(getDriver());
+				phl.navigateRefresh(getDriver());
+				hp.switchFrame(getDriver());
 				hp.clickLogOut();
 				
 			} else {

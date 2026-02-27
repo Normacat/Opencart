@@ -19,14 +19,14 @@ import utilities.DataProviders;
 public class TC004_LoginDDT extends BaseClass {
 	
 	
-	@Test(dataProvider = "setLoginData", dataProviderClass = DataProviders.class, groups = "Sanity")
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups = "Sanity")
 	public void verify_LoginDDT(String user, String pwd, String exp) {
 		
 	logger.info("****Starting the test TC004_LoginDDT *****");
 	
 	try{
 	//Home Page Login
-	PageHomeLogin phl = new PageHomeLogin(driver);
+	PageHomeLogin phl = new PageHomeLogin(getDriver());
 	phl.setUserName(user);
 	phl.setPassword(pwd);
 	logger.info("Providing customer details");
@@ -34,8 +34,8 @@ public class TC004_LoginDDT extends BaseClass {
 	logger.info("clicking to login");
 	
 	//MyAccount
-	HomePage hp = new HomePage(driver);
-	hp.switchFrame(driver);
+	HomePage hp = new HomePage(getDriver());
+	//hp.switchFrame(driver);
 	boolean userName = hp.isMyAccountPageExist();
 	
 	
@@ -46,8 +46,7 @@ public class TC004_LoginDDT extends BaseClass {
 			Assert.assertTrue(true);
 		}
 		else {
-			
-			
+			phl.clearUserName();
 			Assert.assertTrue(false);
 			
 		}
@@ -59,12 +58,12 @@ public class TC004_LoginDDT extends BaseClass {
 		if(userName == true) {
 			
 			hp.clickLogOut();
+			
 			Assert.assertTrue(false);
 			
 		}
 		else {
-			
-			
+			phl.clearUserName();
 			Assert.assertTrue(true);
 			
 		}
@@ -73,7 +72,7 @@ public class TC004_LoginDDT extends BaseClass {
 	
 	}catch (Exception e) {
 		
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		phl.clearUserName();
 		Assert.fail();
 		

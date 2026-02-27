@@ -1,116 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-23T21:36:58 CST" name="Grid-Docker" finished-at="2026-02-23T21:37:27 CST" duration-ms="28779">
+  <suite started-at="2026-02-26T21:32:13 CST" name="Grid-Docker" finished-at="2026-02-26T21:33:47 CST" duration-ms="94511">
     <groups>
-      <group name="Master">
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@9597028]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@4802796d]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-      </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@9597028]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@4802796d]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
-      </group> <!-- Regression -->
+      <group name="Sanity">
+        <method signature="TC004_LoginDDT.verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" name="verify_LoginDDT" class="testCasesLogin.TC004_LoginDDT"/>
+        <method signature="TC004_LoginDDT.verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" name="verify_LoginDDT" class="testCasesLogin.TC004_LoginDDT"/>
+        <method signature="TC004_LoginDDT.verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" name="verify_LoginDDT" class="testCasesLogin.TC004_LoginDDT"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2026-02-23T21:36:58 CST" name="Linux-Firefox" finished-at="2026-02-23T21:37:27 CST" duration-ms="28776">
-      <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@4802796d]" started-at="2026-02-23T21:36:59 CST" name="lounch_browser" finished-at="2026-02-23T21:37:16 CST" duration-ms="16939" status="PASS">
-=======
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-02-23T18:51:53 CST" name="Grid-Docker" finished-at="2026-02-23T18:52:33 CST" duration-ms="39863">
-    <groups>
-      <group name="Regression">
-        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
-        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
-        <method signature="TC003_ValidatingUserProfile.ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" name="ValidatingUserProfileName" class="testCasesLogin.TC003_ValidatingUserProfile"/>
-      </group> <!-- Regression -->
-    </groups>
-    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Chrome" finished-at="2026-02-23T18:52:21 CST" duration-ms="27917">
-      <class name="testCasesLogin.TC003_ValidatingUserProfile">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:03 CST" duration-ms="9455" status="PASS">
->>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lounch_browser -->
-<<<<<<< HEAD
-        <test-method signature="loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@4802796d]" started-at="2026-02-23T21:37:16 CST" name="loginWithInvalidCreddentials" finished-at="2026-02-23T21:37:20 CST" duration-ms="4573" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidCreddentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@4802796d]" started-at="2026-02-23T21:37:25 CST" name="tearDown" finished-at="2026-02-23T21:37:27 CST" duration-ms="1954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
-    </test> <!-- Linux-Firefox -->
-    <test started-at="2026-02-23T21:36:58 CST" name="Linux-Edge" finished-at="2026-02-23T21:37:27 CST" duration-ms="28779">
-      <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18]" started-at="2026-02-23T21:36:59 CST" name="lounch_browser" finished-at="2026-02-23T21:37:10 CST" duration-ms="11363" status="PASS">
-=======
-        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:52:03 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:21 CST" duration-ms="17547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidatingUserProfileName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@9597028]" started-at="2026-02-23T18:52:21 CST" name="tearDown" finished-at="2026-02-23T18:52:21 CST" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
-    </test> <!-- Linux-Chrome -->
-    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Edge" finished-at="2026-02-23T18:52:21 CST" duration-ms="27567">
-      <class name="testCasesLogin.TC003_ValidatingUserProfile">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:06 CST" duration-ms="12032" status="PASS">
->>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
+    <test started-at="2026-02-26T21:32:13 CST" name="Linux-Edge" finished-at="2026-02-26T21:33:30 CST" duration-ms="77162">
+      <class name="testCasesLogin.TC004_LoginDDT">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" started-at="2026-02-26T21:32:13 CST" name="lounch_browser" finished-at="2026-02-26T21:32:30 CST" duration-ms="16398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +25,69 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
               </value>
             </param>
           </params>
-<<<<<<< HEAD
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounch_browser -->
-        <test-method signature="loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18]" started-at="2026-02-23T21:37:10 CST" name="loginWithInvalidCreddentials" finished-at="2026-02-23T21:37:25 CST" duration-ms="14753" status="FAIL">
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" started-at="2026-02-26T21:32:31 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:32:57 CST" duration-ms="26311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" started-at="2026-02-26T21:32:57 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:17 CST" duration-ms="19423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" started-at="2026-02-26T21:33:17 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:29 CST" duration-ms="11877" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LEAR_PR07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mexico*2024]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -138,7 +98,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:39)
+at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -164,93 +124,16 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithInvalidCreddentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18]" started-at="2026-02-23T21:37:25 CST" name="tearDown" finished-at="2026-02-23T21:37:27 CST" duration-ms="1844" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5bc732e8-5c20-44c0-8504-75246ec86797, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21624, moz:profile: C:\Users\norma\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5bc732e8-5c20-44c0-8504-75246ec86797, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21624, moz:profile: C:\Users\norma\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:502)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:276)
-at testBase.BaseClass.tearDown(BaseClass.java:119)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 25 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:385)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:414)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC004_LoginDDT@65fb9ffc]" started-at="2026-02-26T21:33:30 CST" name="tearDown" finished-at="2026-02-26T21:33:30 CST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </test> <!-- Linux-Edge -->
-=======
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lounch_browser -->
-        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:52:06 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:20 CST" duration-ms="14247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidatingUserProfileName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@59474f18]" started-at="2026-02-23T18:52:20 CST" name="tearDown" finished-at="2026-02-23T18:52:21 CST" duration-ms="797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
-    </test> <!-- Linux-Edge -->
-    <test started-at="2026-02-23T18:51:53 CST" name="Linux-Firefox" finished-at="2026-02-23T18:52:33 CST" duration-ms="39863">
-      <class name="testCasesLogin.TC003_ValidatingUserProfile">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:51:54 CST" name="lounch_browser" finished-at="2026-02-23T18:52:15 CST" duration-ms="21011" status="PASS">
+    <test started-at="2026-02-26T21:32:13 CST" name="Linux-Firefox" finished-at="2026-02-26T21:33:39 CST" duration-ms="86606">
+      <class name="testCasesLogin.TC004_LoginDDT">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" started-at="2026-02-26T21:32:13 CST" name="lounch_browser" finished-at="2026-02-26T21:32:33 CST" duration-ms="19489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,16 +149,229 @@ at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableF
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounch_browser -->
-        <test-method signature="ValidatingUserProfileName()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:52:15 CST" name="ValidatingUserProfileName" finished-at="2026-02-23T18:52:31 CST" duration-ms="16536" status="PASS">
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" started-at="2026-02-26T21:32:33 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:32:52 CST" duration-ms="19171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatingUserProfileName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC003_ValidatingUserProfile@4802796d]" started-at="2026-02-23T18:52:31 CST" name="tearDown" finished-at="2026-02-23T18:52:33 CST" duration-ms="1872" status="PASS">
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" started-at="2026-02-26T21:32:52 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:17 CST" duration-ms="24258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" started-at="2026-02-26T21:33:17 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:37 CST" duration-ms="20639" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LEAR_PR07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mexico*2024]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC004_LoginDDT@34123d65]" started-at="2026-02-26T21:33:38 CST" name="tearDown" finished-at="2026-02-26T21:33:39 CST" duration-ms="1669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC003_ValidatingUserProfile -->
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
     </test> <!-- Linux-Firefox -->
->>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
+    <test started-at="2026-02-26T21:32:13 CST" name="Linux-Chrome" finished-at="2026-02-26T21:33:47 CST" duration-ms="94511">
+      <class name="testCasesLogin.TC004_LoginDDT">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T21:32:13 CST" name="lounch_browser" finished-at="2026-02-26T21:32:28 CST" duration-ms="15414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T21:32:31 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:32:59 CST" duration-ms="27372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T21:32:59 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:23 CST" duration-ms="24148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T21:33:23 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T21:33:47 CST" duration-ms="23604" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LEAR_PR07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mexico*2024]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T21:33:47 CST" name="tearDown" finished-at="2026-02-26T21:33:47 CST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC004_LoginDDT -->
+    </test> <!-- Linux-Chrome -->
   </suite> <!-- Grid-Docker -->
 </testng-results>

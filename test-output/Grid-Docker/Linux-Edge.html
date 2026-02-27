@@ -55,17 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Linux-Edge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<<<<<<< HEAD
-<td>Started on:</td><td>Mon Feb 23 21:36:58 CST 2026</td>
+<td>Started on:</td><td>Thu Feb 26 21:32:13 CST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28779 ms)</td>
-=======
-<td>Started on:</td><td>Mon Feb 23 18:51:53 CST 2026</td>
-</tr>
-<tr><td>Total time:</td><td>27 seconds (27567 ms)</td>
->>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
+<tr><td>Total time:</td><td>77 seconds (77162 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master Sanity Regression </td>
 </tr><tr>
@@ -73,107 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCasesLogin.TC002_LoginTestWithInvalidCredentials.tearDown()'><b>tearDown</b><br>Test class: testCasesLogin.TC002_LoginTestWithInvalidCredentials</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5bc732e8-5c20-44c0-8504-75246ec86797, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21624, moz:profile: C:\Users\norma\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:502)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:276)
-	at testBase.BaseClass.tearDown(BaseClass.java:119)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 25 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:385)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:414)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-	... 3 more
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1901400614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1901400614'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5bc732e8-5c20-44c0-8504-75246ec86797, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.4, moz:accessibilityChecks: false, moz:buildID: 20260212191108, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21624, moz:profile: C:\Users\norma\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:502)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:276)
-	at testBase.BaseClass.tearDown(BaseClass.java:119)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 25 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7fa6a251[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f7e6e4c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000000282b3618@a7cf9c7]] rejected from java.util.concurrent.ThreadPoolExecutor@2ea67342[Shutting down, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 202]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:385)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:414)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-	... 3 more
-</pre></div></td>
-<td>1</td>
-<td>testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -183,22 +76,21 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()'><b>loginWithInvalidCreddentials</b><br>Test class: testCasesLogin.TC002_LoginTestWithInvalidCredentials</td>
+<td title='testCasesLogin.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCasesLogin.TC004_LoginDDT<br>Parameters: LEAR_PR07, Mexico*2024, valid</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:39)
+	at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752656367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752656367'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace594621925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace594621925'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
 	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:39)
+	at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -220,14 +112,27 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 </pre></div></td>
-<td>14</td>
-<td>testCasesLogin.TC002_LoginTestWithInvalidCredentials@59474f18</td></tr>
-=======
-<td title='testCasesLogin.TC003_ValidatingUserProfile.ValidatingUserProfileName()'><b>ValidatingUserProfileName</b><br>Test class: testCasesLogin.TC003_ValidatingUserProfile</td>
+<td>11</td>
+<td>testCasesLogin.TC004_LoginDDT@65fb9ffc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCasesLogin.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCasesLogin.TC004_LoginDDT<br>Parameters: test01, test01, invalid</td>
 <td></td>
-<td>14</td>
-<td>testCasesLogin.TC003_ValidatingUserProfile@59474f18</td></tr>
->>>>>>> 3a2c6c72b48ca7a828997a51cd3091650e988af2
+<td>19</td>
+<td>testCasesLogin.TC004_LoginDDT@65fb9ffc</td></tr>
+<tr>
+<td title='testCasesLogin.TC004_LoginDDT.verify_LoginDDT()'><b>verify_LoginDDT</b><br>Test class: testCasesLogin.TC004_LoginDDT<br>Parameters: test02, test02, invalid</td>
+<td></td>
+<td>26</td>
+<td>testCasesLogin.TC004_LoginDDT@65fb9ffc</td></tr>
 </table><p>
 </body>
 </html>

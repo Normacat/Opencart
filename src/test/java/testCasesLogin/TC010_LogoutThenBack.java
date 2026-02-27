@@ -17,7 +17,7 @@ public class TC010_LogoutThenBack extends BaseClass{
 		//HomePageLogin
 		try {
 		
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		phl.setUserName(p.getProperty("user"));;
 		phl.setPassword(p.getProperty("pwd"));
 		logger.info("Providing customer details");
@@ -25,8 +25,8 @@ public class TC010_LogoutThenBack extends BaseClass{
 		logger.info("clicking to login");
 		
 		
-		HomePage hp = new HomePage(driver);
-		hp.switchFrame(driver);
+		HomePage hp = new HomePage(getDriver());
+		hp.switchFrame(getDriver());
 		String pageusername= hp.pageUserName();
 		//Assert.assertEquals(pagetitle, "AON FLEX");
 		logger.info("Validating expected page title");
@@ -36,9 +36,9 @@ public class TC010_LogoutThenBack extends BaseClass{
 			
 			hp.clickLogOut();
 			Thread.sleep(3000);
-			phl.navigateBack(driver);
+			phl.navigateBack(getDriver());
 			
-			phl.navigateRefresh(driver);
+			phl.navigateRefresh(getDriver());
 			
 			if(pageusername.equals("BANDA SIETE MENOS ELECTRICAL S XXI")) {
 				
@@ -46,7 +46,7 @@ public class TC010_LogoutThenBack extends BaseClass{
 				logger.debug("debug logs");
 				Assert.assertTrue(true);
 				
-				hp.switchFrame(driver);
+				hp.switchFrame(getDriver());
 				hp.clickLogOut();
 				
 			} else {

@@ -12,7 +12,7 @@ import testBase.BaseClass;
 public class PageHomeLogin extends BasePage{
 	
 	
-	WebDriver driver;
+   WebDriver driver;
 	
 	
 	

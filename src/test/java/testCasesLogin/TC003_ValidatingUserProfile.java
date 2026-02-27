@@ -18,7 +18,7 @@ public class TC003_ValidatingUserProfile extends BaseClass{
 		//HomePageLogin
 		
 		try {
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		
 		phl.setUserName(p.getProperty("user"));;
 		phl.setPassword(p.getProperty("pwd"));
@@ -27,7 +27,7 @@ public class TC003_ValidatingUserProfile extends BaseClass{
 		logger.info("clicking to login");
 		
 		//MyAccount
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(getDriver());
 		//hp.switchFrame(driver);
 		boolean userName = hp.isMyAccountPageExist();
 		

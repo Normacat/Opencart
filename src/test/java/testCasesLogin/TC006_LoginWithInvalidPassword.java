@@ -17,7 +17,7 @@ public class TC006_LoginWithInvalidPassword extends BaseClass{
 		try {
 			
 		
-		PageHomeLogin hpl = new PageHomeLogin(driver);
+		PageHomeLogin hpl = new PageHomeLogin(getDriver());
 		hpl.setUserName(p.getProperty("user"));
 		hpl.setPassword(setRandomeAlphabeticNumber());
 		logger.info("Providing customer details");

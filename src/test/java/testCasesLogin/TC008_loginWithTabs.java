@@ -18,7 +18,7 @@ public class TC008_loginWithTabs extends BaseClass{
 		
 		try {
 		
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		
 		
 		phl.setUserNameWithTab(p.getProperty("user"));
@@ -29,8 +29,8 @@ public class TC008_loginWithTabs extends BaseClass{
 		phl.enterLogin();;
 		logger.info("Clicking to login");
 		
-		HomePage hp = new HomePage(driver);
-		hp.switchFrame(driver);
+		HomePage hp = new HomePage(getDriver());
+		hp.switchFrame(getDriver());
 		String userName = hp.pageUserName();
 		
 		if(userName.equals("BANDA SIETE MENOS ELECTRICAL S XXI")) {

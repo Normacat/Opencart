@@ -69,8 +69,6 @@ public class DataProviders {
 			xlutil.setCellData("Sheet1", i, 0, data);
 			xlutil.setCellData("Sheet1", i, 1, data);
 
-			
-
 			for (int j=0; j<totalcolumns; j++){
 				
 				logindata[i-1][j] = xlutil.getCellData("Sheet1", i, j);

@@ -31,7 +31,7 @@ import io.cucumber.java.en.Given;
 public class BaseClass {
 
 	public Logger logger;
-	public static WebDriver driver;
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	public Properties p;
 
 	
@@ -39,6 +39,8 @@ public class BaseClass {
 	@Parameters({ "os", "browser" })
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	public void lounch_browser(String os, String br) throws IOException {
+		
+		WebDriver localdriver;
 
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 
@@ -80,7 +82,8 @@ public class BaseClass {
 
 			}
 
-			driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), cap);
+			localdriver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), cap);
+			driver.set(localdriver);
 
 		}
 
@@ -88,13 +91,16 @@ public class BaseClass {
 
 			switch (br.toLowerCase()) {
 			case "chrome":
-				driver = new ChromeDriver();
+				localdriver = new ChromeDriver();
+				driver.set(localdriver);
 				break;
 			case "edge":
-				driver = new EdgeDriver();
+				localdriver = new EdgeDriver();
+				driver.set(localdriver);
 				break;
 			case "firefox":
-				driver = new FirefoxDriver();
+				localdriver = new FirefoxDriver();
+				driver.set(localdriver);
 				break;
 
 			default:
@@ -105,18 +111,24 @@ public class BaseClass {
 		}
 
 		// driver = new ChromeDriver();
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(p.getProperty("url"));
-		driver.manage().window().maximize();
 		
+		driver.get().manage().deleteAllCookies();
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get().get(p.getProperty("url"));
+		driver.get().manage().window().maximize();
+		
+	}
+	
+	public WebDriver getDriver() {
+		
+		return driver.get();
 	}
 
 	
 	 //@And("tearDown")
 	 @AfterClass(groups = { "Sanity", "Regression", "Master" }) 
 	 public void tearDown() { 
-		 driver.quit();
+		 driver.get().quit();
 		 
 	
 	  }
@@ -144,9 +156,13 @@ public class BaseClass {
 
 	public String captureScreen(String tname) throws IOException {
 
+		
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		
+		TakesScreenshot takesScreenshot = (TakesScreenshot) (getDriver());
+		
+		
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
 		String targetFilePath = System.getProperty("user.dir") + "\\screenshoots\\" + tname + "_" + timeStamp + ".png";

@@ -19,7 +19,7 @@ public class TC005_LoginWithInvalidUserName extends BaseClass{
 		try {
 			
 		//Login Page
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		phl.setUserName(setRandomeString());
 		phl.setPassword(p.getProperty("pwd"));
 		logger.info("Providing customer details");

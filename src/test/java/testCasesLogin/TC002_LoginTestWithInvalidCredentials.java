@@ -18,7 +18,7 @@ public class TC002_LoginTestWithInvalidCredentials extends BaseClass{
 		logger.info("TC002_LoginTestWithInvalidCredentials starting...");
 		
 		try {
-		PageHomeLogin phl = new PageHomeLogin(driver);
+		PageHomeLogin phl = new PageHomeLogin(getDriver());
 		
 		phl.setUserName(setRandomeString());
 		phl.setPassword(setRandomeAlphabeticNumber());
