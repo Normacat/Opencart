@@ -1,0 +1,30 @@
+23:32:34.594 [TestNG-tests-3] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:20)oggger - *** Starting TC001_LoginTest ***
+23:32:34.983 [TestNG-tests-1] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:29)oggger - Providing customer details
+23:32:36.395 [TestNG-tests-3] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:29)oggger - Providing customer details
+23:32:36.713 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:20)oggger - *** Starting TC001_LoginTest ***
+23:32:37.014 [TestNG-tests-3] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:31)oggger - clicking to login
+23:32:37.023 [TestNG-tests-3] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:90)oggger - Validating expected page title
+23:32:37.024 [TestNG-tests-3] ERROR testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:101)oggger - Test failed
+23:32:37.025 [TestNG-tests-3] DEBUG testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:102)oggger - Debugs logs
+23:32:37.030 [TestNG-tests-3] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:118)oggger -  *** Finished TC001_LoginTest *** 
+23:32:37.105 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:29)oggger - Providing customer details
+23:32:39.287 [TestNG-tests-1] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:31)oggger - clicking to login
+23:32:39.289 [TestNG-tests-1] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:90)oggger - Validating expected page title
+23:32:39.289 [TestNG-tests-1] ERROR testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:101)oggger - Test failed
+23:32:39.290 [TestNG-tests-1] DEBUG testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:102)oggger - Debugs logs
+23:32:39.290 [TestNG-tests-1] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:118)oggger -  *** Finished TC001_LoginTest *** 
+23:32:40.901 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.login(TC001_LoginTest.java:31)oggger - clicking to login
+23:32:40.903 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:90)oggger - Validating expected page title
+23:32:40.905 [TestNG-tests-2] ERROR testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:101)oggger - Test failed
+23:32:40.905 [TestNG-tests-2] DEBUG testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:102)oggger - Debugs logs
+23:32:40.906 [TestNG-tests-2] INFO  testCasesLogin.TC001_LoginTest.user_is_navigated_to_the_landing_page(TC001_LoginTest.java:118)oggger -  *** Finished TC001_LoginTest *** 
+23:32:44.865 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+23:32:45.981 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+23:32:46.795 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+23:32:47.002 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+23:32:47.467 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+23:32:48.068 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+23:32:51.776 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+23:32:51.776 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+23:32:54.023 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+23:32:54.024 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...

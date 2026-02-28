@@ -1,26 +1,11 @@
-22:51:12.465 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:51:12.470 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-22:51:12.481 [TestNG-tests-1] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:51:12.493 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-22:51:12.514 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:51:12.529 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-22:51:12.549 [TestNG-tests-1] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:51:12.599 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-22:51:12.601 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:51:12.603 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-22:51:12.617 [TestNG-tests-1] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:51:12.666 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/_rels/workbook.xml.rels
-22:51:12.673 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:51:12.678 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
-22:51:12.726 [TestNG-tests-1] DEBUG org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:65)oggger - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:51:12.802 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-22:51:13.202 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-22:51:13.877 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
-22:51:24.092 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
-22:51:24.145 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-22:51:24.536 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-22:51:25.141 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
-22:51:35.517 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:81)oggger - ****Finished the test TC004_LoginDDT *****
-22:51:35.535 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:25)oggger - ****Starting the test TC004_LoginDDT *****
-22:51:36.356 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:32)oggger - Providing customer details
-22:51:37.209 [TestNG-tests-1] INFO  testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:34)oggger - clicking to login
+12:38:10.477 [TestNG-tests-1] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+12:38:10.746 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+12:38:11.090 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+12:38:11.476 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+12:38:13.089 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+12:38:13.089 [TestNG-tests-3] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...
+12:38:16.562 [TestNG-tests-2] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:18)oggger - TC002_LoginTestWithInvalidCredentials starting...
+12:38:16.655 [TestNG-tests-2] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:25)oggger - Providing customer details
+12:38:19.485 [TestNG-tests-2] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:28)oggger - clicking to login
+12:38:19.533 [TestNG-tests-2] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:31)oggger - Validating expected message
+12:38:19.533 [TestNG-tests-2] INFO  testCasesLogin.TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials(TC002_LoginTestWithInvalidCredentials.java:49)oggger - TC002_LoginTestWithInvalidCredentials finished...

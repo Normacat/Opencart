@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-26T22:51:05 CST" name="Master Suite" finished-at="2026-02-26T22:51:47 CST" duration-ms="42396">
+  <suite started-at="2026-02-28T12:37:59 CST" name="Grid-Docker" finished-at="2026-02-28T12:38:20 CST" duration-ms="21271">
     <groups>
+      <group name="Master">
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@59662a0b]" name="login" class="testCasesLogin.TC001_LoginTest"/>
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@5b8dfcc1]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@618b19ad]" name="login" class="testCasesLogin.TC001_LoginTest"/>
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@2d3379b4]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@5e0e82ae]" name="login" class="testCasesLogin.TC001_LoginTest"/>
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@6771beb3]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+      </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC004_LoginDDT.verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" name="verify_LoginDDT" class="testCasesLogin.TC004_LoginDDT"/>
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@59662a0b]" name="login" class="testCasesLogin.TC001_LoginTest"/>
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@618b19ad]" name="login" class="testCasesLogin.TC001_LoginTest"/>
+        <method signature="TC001_LoginTest.login()[pri:0, instance:testCasesLogin.TC001_LoginTest@5e0e82ae]" name="login" class="testCasesLogin.TC001_LoginTest"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@5b8dfcc1]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@2d3379b4]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+        <method signature="TC002_LoginTestWithInvalidCredentials.loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@6771beb3]" name="loginWithInvalidCreddentials" class="testCasesLogin.TC002_LoginTestWithInvalidCredentials"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-02-26T22:51:05 CST" name="Test" finished-at="2026-02-26T22:51:47 CST" duration-ms="42396">
-      <class name="testCasesLogin.TC004_LoginDDT">
-        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T22:51:05 CST" name="lounch_browser" finished-at="2026-02-26T22:51:10 CST" duration-ms="4442" status="PASS">
+    <test started-at="2026-02-28T12:37:59 CST" name="Linux-Chrome" finished-at="2026-02-28T12:38:10 CST" duration-ms="11196">
+      <class name="testCasesLogin.TC001_LoginTest">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC001_LoginTest@59662a0b]" started-at="2026-02-28T12:37:59 CST" name="lounch_browser" finished-at="2026-02-28T12:38:03 CST" duration-ms="3766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,108 +41,149 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounch_browser -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T22:51:12 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T22:51:24 CST" duration-ms="11344" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test02]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test02]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="login()[pri:0, instance:testCasesLogin.TC001_LoginTest@59662a0b]" started-at="2026-02-28T12:38:03 CST" name="login" finished-at="2026-02-28T12:38:04 CST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T22:51:24 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T22:51:35 CST" duration-ms="11377" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test01]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T22:51:35 CST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2026-02-26T22:51:47 CST" duration-ms="11823" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LEAR_PR07]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mexico*2024]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCasesLogin.TC004_LoginDDT.verify_LoginDDT(TC004_LoginDDT.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC004_LoginDDT@6069db50]" started-at="2026-02-26T22:51:47 CST" name="tearDown" finished-at="2026-02-26T22:51:47 CST" duration-ms="129" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC001_LoginTest@59662a0b]" started-at="2026-02-28T12:38:04 CST" name="tearDown" finished-at="2026-02-28T12:38:04 CST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCasesLogin.TC004_LoginDDT -->
-    </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+      </class> <!-- testCasesLogin.TC001_LoginTest -->
+      <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@5b8dfcc1]" started-at="2026-02-28T12:38:04 CST" name="lounch_browser" finished-at="2026-02-28T12:38:08 CST" duration-ms="3811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@5b8dfcc1]" started-at="2026-02-28T12:38:08 CST" name="loginWithInvalidCreddentials" finished-at="2026-02-28T12:38:10 CST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCreddentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@5b8dfcc1]" started-at="2026-02-28T12:38:10 CST" name="tearDown" finished-at="2026-02-28T12:38:10 CST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
+    </test> <!-- Linux-Chrome -->
+    <test started-at="2026-02-28T12:37:59 CST" name="Linux-Edge" finished-at="2026-02-28T12:38:13 CST" duration-ms="13789">
+      <class name="testCasesLogin.TC001_LoginTest">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC001_LoginTest@5e0e82ae]" started-at="2026-02-28T12:37:59 CST" name="lounch_browser" finished-at="2026-02-28T12:38:04 CST" duration-ms="4799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="login()[pri:0, instance:testCasesLogin.TC001_LoginTest@5e0e82ae]" started-at="2026-02-28T12:38:04 CST" name="login" finished-at="2026-02-28T12:38:05 CST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC001_LoginTest@5e0e82ae]" started-at="2026-02-28T12:38:05 CST" name="tearDown" finished-at="2026-02-28T12:38:05 CST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC001_LoginTest -->
+      <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@6771beb3]" started-at="2026-02-28T12:38:05 CST" name="lounch_browser" finished-at="2026-02-28T12:38:10 CST" duration-ms="5343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@6771beb3]" started-at="2026-02-28T12:38:10 CST" name="loginWithInvalidCreddentials" finished-at="2026-02-28T12:38:13 CST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCreddentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@6771beb3]" started-at="2026-02-28T12:38:13 CST" name="tearDown" finished-at="2026-02-28T12:38:13 CST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
+    </test> <!-- Linux-Edge -->
+    <test started-at="2026-02-28T12:37:59 CST" name="Linux-Firefox" finished-at="2026-02-28T12:38:20 CST" duration-ms="21271">
+      <class name="testCasesLogin.TC001_LoginTest">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC001_LoginTest@618b19ad]" started-at="2026-02-28T12:37:59 CST" name="lounch_browser" finished-at="2026-02-28T12:38:06 CST" duration-ms="6374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="login()[pri:0, instance:testCasesLogin.TC001_LoginTest@618b19ad]" started-at="2026-02-28T12:38:06 CST" name="login" finished-at="2026-02-28T12:38:08 CST" duration-ms="2746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC001_LoginTest@618b19ad]" started-at="2026-02-28T12:38:08 CST" name="tearDown" finished-at="2026-02-28T12:38:10 CST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC001_LoginTest -->
+      <class name="testCasesLogin.TC002_LoginTestWithInvalidCredentials">
+        <test-method is-config="true" signature="lounch_browser(java.lang.String,java.lang.String)[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@2d3379b4]" started-at="2026-02-28T12:38:10 CST" name="lounch_browser" finished-at="2026-02-28T12:38:16 CST" duration-ms="5841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounch_browser -->
+        <test-method signature="loginWithInvalidCreddentials()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@2d3379b4]" started-at="2026-02-28T12:38:16 CST" name="loginWithInvalidCreddentials" finished-at="2026-02-28T12:38:19 CST" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCreddentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCasesLogin.TC002_LoginTestWithInvalidCredentials@2d3379b4]" started-at="2026-02-28T12:38:19 CST" name="tearDown" finished-at="2026-02-28T12:38:20 CST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCasesLogin.TC002_LoginTestWithInvalidCredentials -->
+    </test> <!-- Linux-Firefox -->
+  </suite> <!-- Grid-Docker -->
 </testng-results>
